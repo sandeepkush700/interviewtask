@@ -1,0 +1,30 @@
+<div>
+
+    <div>
+        <p style="background-color:gray;"><span style="color: white;">Cricket</span></p>
+        <div *ngFor="let item of playdata">
+            <p>{{item?.matchname}}</p>
+        </div>
+    </div>
+    <div>
+        <p style="background-color:gray;"><span style="color: white;">Tennis</span></p>
+        <div>
+
+            <div *ngFor="let item of playdatafortennis">
+                <p>{{item?.matchname}}</p>
+            </div>
+
+        </div>
+    </div>
+    <div>
+        <p style="background-color:gray;"><span style="color: white;">Soccer</span></p>
+        <div>
+            <div *ngFor="let item of playdataforscore">
+
+                <p>{{item?.matchname}}</p>
+
+            </div>
+
+        </div>
+    </div>
+</div>
